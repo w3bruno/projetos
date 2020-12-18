@@ -1,6 +1,8 @@
-let nome ='Bruno';
-let idade=38;
-let comidaFavorita;
-comidaFavorita='Churrasco';
+var possuiGraduação=true;
 
-console.log(comidaFavorita)
+if (possuiGraduação) {
+  console.log('Possui')
+} else {
+  console.log('Não possui')
+  
+}
