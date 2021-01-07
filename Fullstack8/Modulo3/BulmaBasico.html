@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bulma</title>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css"
+      integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <p class="title">Meu título</p>
+        <p class="subtitle">Meu subtítulo</p>
+
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+          <ul>
+            <li>
+              <a href="#">
+                <span class="icon is-small">
+                  <i class="fas fa-home" aria-hidden="true"></i>
+                </span>
+                <span>Bulma</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon is-small">
+                  <i class="fas fa-book" aria-hidden="true"></i>
+                </span>
+                <span>Documentation</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon is-small">
+                  <i class="fas fa-puzzle-piece" aria-hidden="true"></i>
+                </span>
+                <span>Components</span>
+              </a>
+            </li>
+            <li class="is-active">
+              <a href="#">
+                <span class="icon is-small">
+                  <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+                </span>
+                <span>Breadcrumb</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <article class="message">
+          <div class="message-header">
+            <p>Hello World</p>
+            <button class="delete" aria-label="delete"></button>
+          </div>
+          <div class="message-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>Pellentesque risus mi</strong>, tempus quis placerat ut,
+            porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam
+            gravida purus diam, et dictum <a>felis venenatis</a> efficitur.
+            Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales,
+            arcu et sollicitudin porttitor, tortor urna tempor ligula, id
+            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget,
+            facilisis sodales sem.
+          </div>
+        </article>
+        <nav class="panel">
+          <p class="panel-heading">Repositories</p>
+          <div class="panel-block">
+            <p class="control has-icons-left">
+              <input class="input" type="text" placeholder="Search" />
+              <span class="icon is-left">
+                <i class="fas fa-search" aria-hidden="true"></i>
+              </span>
+            </p>
+          </div>
+          <p class="panel-tabs">
+            <a class="is-active">All</a>
+            <a>Public</a>
+            <a>Private</a>
+            <a>Sources</a>
+            <a>Forks</a>
+          </p>
+          <a class="panel-block is-active">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            bulma
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            marksheet
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            minireset.css
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            jgthms.github.io
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-code-branch" aria-hidden="true"></i>
+            </span>
+            daniellowtw/infboard
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-code-branch" aria-hidden="true"></i>
+            </span>
+            mojs
+          </a>
+          <label class="panel-block">
+            <input type="checkbox" />
+            remember me
+          </label>
+          <div class="panel-block">
+            <button class="button is-link is-outlined is-fullwidth">
+              Reset all filters
+            </button>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </body>
+</html>
